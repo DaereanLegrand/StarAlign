@@ -1,0 +1,92 @@
+ _______________________________________
+/ People are unconditionally guaranteed \
+\ to be full of defects.                /
+ ---------------------------------------
+     \
+      \
+       ("`-'  '-/") .___..--' ' "`-._
+         ` *_ *  )    `-.   (      ) .`-.__. `)
+         (_Y_.) ' ._   )   `._` ;  `` -. .-'
+      _.. `--'_..-_/   /--' _ .' ,4
+   ( i l ),-''  ( l i),'  ( ( ! .-'    
+
+
+Microsoft(R) Windows 95
+   (C)Copyright Microsoft Corp 1981-1996.
+
+ daerean 雨 Lab 02 ►  exe main.cpp 
+ daerean 雨 Lab 02 ►  ./output 
+0       7       -2      0       -3
+7       0       -2      0       -4
+-2      -2      0       0       -7
+0       0       0       0       -3
+-3      -4      -7      -3      0
+ daerean 雨 Lab 02 ►  exe main.cpp 
+ daerean 雨 Lab 02 ►  ./output 
+  0       7      -2       0      -3
+  7       0      -2       0      -4
+ -2      -2       0       0      -7
+  0       0       0       0      -3
+ -3      -4      -7      -3       0
+ daerean 雨 Lab 02 ►  exe main.cpp
+ daerean 雨 Lab 02 ►  ./output    
+  0       7      -2       0      -3
+  7       0      -2       0      -4
+ -2      -2       0       0      -7
+  0       0       0       0      -3
+ -3      -4      -7      -3       0
+2, 1, -11, -3, -17, 
+ daerean 雨 Lab 02 ►  exe main.cpp 
+ daerean 雨 Lab 02 ►  ./output 
+  0       7      -2       0      -3
+  7       0      -2       0      -4
+ -2      -2       0       0      -7
+  0       0       0       0      -3
+ -3      -4      -7      -3       0
+ACTGACC
+ daerean 雨 Lab 02 ►  exe main.cpp -r
+Compiled succesfully. Now running...
+  0       7      -2       0      -3
+  7       0      -2       0      -4
+ -2      -2       0       0      -7
+  0       0       0       0      -3
+ -3      -4      -7      -3       0
+4 ACTGACC
+ daerean 雨 Lab 02 ►  exe main.cpp -r
+Compiled succesfully. Now running...
+  0       7      -2       0      -3
+  7       0      -2       0      -4
+ -2      -2       0       0      -7
+  0       0       0       0      -3
+ -3      -4      -7      -3       0
+/home/daerean/Scripts/executor: line 83: 30552 Segmentation fault      ./output
+ daerean 雨 Lab 02 ►  exe main.cpp -r
+Compiled succesfully. Now running...
+  0       7      -2       0      -3
+  7       0      -2       0      -4
+ -2      -2       0       0      -7
+  0       0       0       0      -3
+ -3      -4      -7      -3       0
+0 ATTGCCATT
+ daerean 雨 Lab 02 ►                 
+ daerean 雨 Lab 02 ►  exe main.cpp -r
+Compiled succesfully. Now running...
+  0       7      -2       0      -4
+  7       0      -2       0      -3
+ -2      -2       0       0      -7
+  0       0       0       0      -3
+ -4      -3      -7      -3       0
+1 ATTGCCATT
+ daerean 雨 Lab 02 ►  exe main.cpp -r
+Compiled succesfully. Now running...
+  0       7      -2       0      -3
+  7       0      -2       0      -4
+ -2      -2       0       0      -7
+  0       0       0       0      -3
+ -3      -4      -7      -3       0
+0 ATTGCCATT
+ daerean 雨 Lab 02 ►  exe main.cpp -r
+Compiled succesfully. Now running...
+free(): invalid pointer
+/home/daerean/Scripts/executor: line 83: 11788 Aborted                 ./output
+ daerean 雨 Lab 02 ►  

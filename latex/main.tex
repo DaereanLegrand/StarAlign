@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage[spanish]{babel}
+\usepackage{hyperref}
+\usepackage{graphicx}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,      
+    urlcolor=blue,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+\title{Laboratorio 01a: MSA Estrella}
+\author{Frank Roger Salas Ticona}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Introducción}
+
+\section{Implementación}
+
+\section{Resultados}
+\subsection{Experimentos}
+
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{|l|c|c|c|}
+        \hline
+
+        \hline
+    \end{tabular}
+    \caption{Resumen de los resultados obtenidos.}
+    \label{tab:resultados}
+\end{table}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/img.png}
+    \caption{Código corriendo con las secuencias de ejemplo.}
+    \label{fig:code}
+\end{figure}
+
+\subsection{Visualización}
+Para poder visualizar mejor el alineamiento de cadenas se hizo este gráfico en python.
+\begin{figure}[!htpb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/dot.png}
+    \caption{Ejemplo de matriz de puntos para el alineamiento de dos secuencias.}
+    \label{fig:matriz_puntos}
+\end{figure}
+
+\section{Análisis y Discusión}
+El algoritmo Needleman-Wunsch ha facilitado la alineación global de secuencias de proteínas y ADN, mejorando estudios evolutivos y predicciones estructurales. Las principales mejoras incluyen la adaptación para alineaciones locales y la implementación en plataformas paralelas como CUDA y OpenCL, siendo esta última la más relevante por su eficiencia en el procesamiento de grandes volúmenes de datos.
+
+\section{Conclusiones}
+La implementación del algoritmo Needleman-Wunsch en C++ con OpenMP ha mejorado significativamente el tiempo de procesamiento, aunque aún persiste el desafío de obtener todos los alineamientos posibles para secuencias largas. Las visualizaciones en Python han facilitado la interpretación de los resultados.
+
+
+\end{document}
